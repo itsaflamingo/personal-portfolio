@@ -17,11 +17,11 @@ export default function ContactInfo() {
                     <p>elizabeth.r.pinero@gmail.com</p>
                 </div>
             </div>
-            <div id='footer-social'>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt='linked-in' />
-                <i class="devicon-github-original colored"></i>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt='twitter' />
 
+            <div id='footer-social'>
+                <i className="devicon-linkedin-plain colored"></i>
+                <i className="devicon-github-original colored"></i>
+                <i className="devicon-twitter-original"></i>
             </div>
         </div>
     )

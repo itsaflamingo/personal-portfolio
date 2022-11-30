@@ -52,7 +52,7 @@ const shoppingCart = () => {
 const weatherApp = () => {
     return ProjectsFactory(
         'Weather App',
-        "Displays searched city weather. Includes responsive UI. Weather information was retrieved from OpenWeatherMap API. Created using JavaScript, HTML and CSS.",
+        "Displays searched city weather. Weather information was retrieved from OpenWeatherMap API. Created using JavaScript, HTML and CSS.",
         'https://itsaflamingo.github.io/weather-app/',
         'https://github.com/itsaflamingo/weather-app',
         4,
