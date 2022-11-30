@@ -6,10 +6,7 @@ export default function Project(props) {
 
     return (
         <div className='description-div' id={project.name}>
-            <h2 class='heading'>{project.name}</h2>
-            <div className="description">
-                {project.description}
-            </div>
+            <h2 className='heading'>{project.name}</h2>
             <ProjectLinks 
             ghLink = {project.ghRepoLink}
             projectLink = {project.projectLink} />

@@ -1,3 +1,4 @@
+import ProjectLinks from "./ProjectLinks";
 import projects from "./ProjectsFactory"
 
 export default function Projects(props) {
@@ -12,6 +13,8 @@ export default function Projects(props) {
                         <div className='project' key={project.id} 
                         onClick={() => setProject(project)}>
                             {project.name}
+                            <ProjectLinks ghLink={project.ghRepoLink}
+                            projectLink={project.projectLink} />
                         </div>
                     )
                 })}

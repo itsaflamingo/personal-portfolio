@@ -8,19 +8,16 @@ import Project from './Project'
 function App() {
 
   const [project, setProject] = useState('');
-  const [showProject, setShowProject] = useState(false);
-
-  useEffect(() => {
-    setShowProject(true);
-  }, [project])
 
   return (
     <div className="App">
-      <ProjectContext.Provider value={project}> 
-        {!showProject && <Personal />}
-        {showProject && <Project project={project} />}
-        <Projects setProject={setProject} />
-      </ProjectContext.Provider>
+      <div id='main'>
+        <ProjectContext.Provider value={project}> 
+          <Personal />
+          <Project project={project} />
+          <Projects setProject={setProject} />
+        </ProjectContext.Provider>
+      </div>
     </div>
   );
 }

@@ -1,42 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
-    --background: linear-gradient(to right,  rgb(66,56,50)   4px, transparent 4px) 0    0,
-                  linear-gradient(to left,   rgb(66,56,50)   4px, transparent 4px) 100% 100%,
-                  linear-gradient(to bottom, rgb(66,56,50)   4px, transparent 4px) 0    0,
-                  linear-gradient(to top,    rgb(66,56,50)   4px, transparent 4px) 100% 100%;
     --text: #F4E6DB;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
 body {
-    background-color: rgb(189,148,123);
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 /* APP */
+#root {
+    width: 100vw;
+    height: 100vh;
+}
 .App {
     width: 100%;
+    height: 100%;
     min-width: 240px;
     min-height: 600px;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#main {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    background: linear-gradient(to right,  rgb(66,56,50)   12px, transparent 12px) 0    0,
-                linear-gradient(to left,   rgb(66,56,50)   12px, transparent 12px) 100% 100%,
-                linear-gradient(to bottom, rgb(66,56,50)   12px, transparent 12px) 0    0,
-                linear-gradient(to top,    rgb(66,56,50)   12px, transparent 12px) 100% 100%;;
-    background-repeat: no-repeat;
-    background-size: 100px 100px;
-    border-radius: 20px;
 }
 img {
     min-width: 100px;
     max-width: 200px;
     width: minmax(100px, 200px);
     height: auto;
+}
+/* HEADER */
+#header {
+    border-bottom: 1px solid black;
+    padding-left: 50px;
 }
 /* PERSONAL */
 .description-div {
@@ -46,13 +49,19 @@ img {
     margin: 40px;
     padding: 40px;
 }
+#personal {
+    display: flex;
+    background: linear-gradient(to right, #a2ea4c 60%, #07aa91 200px);
+}
+#my-pic {
+    min-width: 250px;
+}
 /* PROJECTS */
 #projects {
     min-width: 150px;
     max-width: 200px;
     max-height: 200px;
 
-    background: var(--background);
     background-repeat: no-repeat;
     background-size: 40px 40px;
 
@@ -69,40 +78,18 @@ img {
     color: var(--text);
 }
 .description-div {
-    background: var(--background);
     background-repeat: no-repeat;
     background-size: 40px 40px;
     max-height: 300px;
     max-width: 600px;
     margin-left: 100px;
 }
-.project:hover, button:hover {
+.project:hover{
     cursor: pointer;
-    background-position: 0;
 }
 .project { 
-    background-image: linear-gradient(
-      to right,
-      #0578eb,
-      #ef6000 50%,
-      #000 50%
-    );
     background-size: 200% 100%;
     background-position: -100%;
-    /* background is only applied to the text, not the div around it */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-    text-decoration: underline;
-}
-.project::before, button::before {
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 3px;
 }
 .project:hover::before, button:hover::before {
     width: 100%;
@@ -117,16 +104,4 @@ button {
     min-width: 100px;
     border-radius: 20px;
     border: none;
-    color: var(--text);
-
-    background-image: linear-gradient(
-        to right,
-        #0578eb,
-        #ef6000 50%,
-        #4E4037 50%
-      );
-    background-size: 200% 100%;
-    background-position: -100%;
-    /* background is only applied to the text, not the div around it */
-    transition: all 0.3s ease-in-out;
 }
