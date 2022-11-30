@@ -16,6 +16,9 @@ export default function Projects() {
                                 <ProjectLinks ghLink={project.ghRepoLink}
                                 projectLink={project.projectLink} />
                             </div>
+                            <div className="description">
+                                {project.description}
+                            </div>
                         </div>
                     )
                 })}
