@@ -136,10 +136,23 @@ button {
     background-color: var(--background);
     color: white;
     margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .footer-social {
     height: 20%;
 }
 .social-med {
     height: 10%;
+}
+#personal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 0;
+}
+p {
+    margin: 0;
 }
