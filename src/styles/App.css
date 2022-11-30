@@ -2,7 +2,6 @@
 * {
     --text: #F4E6DB;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
 }
 body {
     display: flex;
@@ -49,50 +48,76 @@ img {
     margin: 40px;
     padding: 40px;
 }
-#personal {
+#head {
+    position: relative;
     display: flex;
-    background: linear-gradient(to right, #a2ea4c 60%, #07aa91 200px);
+    width: 87vw;
+    max-height: 100%;
+}
+#personal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 #my-pic {
     min-width: 250px;
+    box-shadow: 2px 2px 5px  #62616146;}
+#about-me {
+    background-color: white;
+    max-width: 450px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.273);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 100;
 }
 /* PROJECTS */
 #projects {
-    min-width: 150px;
-    max-width: 200px;
-    max-height: 200px;
-
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-
-    margin: 40px;
-    padding: 40px;
-    margin-right: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#projects-container {
+    width: 90vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 300px));
+    gap: 20px;
 }
 .heading {
     color: rgb(78,64,55);
 }
-.description {
-    min-width: 300px;
-    max-width: 700px;
-    color: var(--text);
-}
-.description-div {
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-    max-height: 300px;
-    max-width: 600px;
-    margin-left: 100px;
-}
-.project:hover{
-    cursor: pointer;
-}
+/* PROJECT */
 .project { 
-    background-size: 200% 100%;
-    background-position: -100%;
-}
-.project:hover::before, button:hover::before {
+    display: flex;
+    flex-direction: column;  
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    justify-self: center;
     width: 100%;
+    gap: 20px;
+}
+.info {
+    display: flex;
+    margin-bottom: 30px;
+}
+i {
+    width: 100%;
+}
+.proj-img {
+    margin: 30px 0 20px 0;
+    min-width: 300px;
 }
 /* LINKS */
 .links {
