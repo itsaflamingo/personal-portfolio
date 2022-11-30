@@ -141,8 +141,15 @@ button {
     align-items: center;
     justify-content: center;
 }
-.footer-social {
+#footer-social {
     height: 20%;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.icon {
+    cursor: pointer;
 }
 .social-med {
     height: 10%;
@@ -152,6 +159,10 @@ button {
     flex-direction: column;
     gap: 15px;
     margin: 15px 0;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 p {
     margin: 0;

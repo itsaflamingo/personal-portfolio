@@ -20,9 +20,15 @@ export default function ContactInfo() {
                 </div>
 
                 <div id='footer-social'>
-                    <i className="devicon-linkedin-plain colored"></i>
-                    <i className="devicon-github-original colored"></i>
-                    <i className="devicon-twitter-original"></i>
+                    <a href='https://www.linkedin.com/in/elizabeth-pinero-984471177/' target='_blank' rel='noreferrer'>
+                        <i className="devicon-linkedin-plain colored icon"></i>
+                    </a>
+                    <a href='https://github.com/itsaflamingo' target='_blank' rel='noreferrer'>
+                        <i className="devicon-github-original colored icon"></i>
+                    </a>
+                    <a href='https://twitter.com/lizpinero_' target='_blank' rel='noreferrer'>
+                        <i className="devicon-twitter-original icon"></i>
+                    </a>
                 </div>
             </div>
         </div>
