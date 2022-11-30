@@ -1,15 +1,20 @@
 import projects from "./ProjectsFactory"
 
-export default function Projects() {
+export default function Projects(props) {
+
+    const {setProject} = props;
+
     return (
         <div id='projects'>
-            <ul>
+            <h3 className="heading">Projects</h3>
                 {projects.map(project => {
                     return (
-                        <li key={project.id}>{project.name}</li>
+                        <div className='project' key={project.id} 
+                        onClick={() => setProject(project)}>
+                            {project.name}
+                        </div>
                     )
                 })}
-            </ul>
         </div>
     )
 }
