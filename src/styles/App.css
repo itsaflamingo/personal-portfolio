@@ -36,11 +36,6 @@ img {
     width: minmax(100px, 200px);
     height: auto;
 }
-/* HEADER */
-#header {
-    border-bottom: 1px solid black;
-    padding-left: 50px;
-}
 /* PERSONAL */
 #container {
     width: 100vw;
@@ -92,6 +87,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 40px;
 }
 #projects-container {
     width: 90vw;
@@ -102,6 +98,7 @@ img {
 }
 .heading {
     color: rgb(78,64,55);
+    align-self: flex-start;
 }
 /* PROJECT */
 .project { 
