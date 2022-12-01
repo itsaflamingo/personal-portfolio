@@ -21,7 +21,7 @@ export default function ContactInfo() {
 
                 <div id='footer-social'>
                     <a href='https://www.linkedin.com/in/elizabeth-pinero-984471177/' target='_blank' rel='noreferrer'>
-                        <i className="devicon-linkedin-plain colored icon"></i>
+                        <i className="devicon-linkedin-plain icon"></i>
                     </a>
                     <a href='https://github.com/itsaflamingo' target='_blank' rel='noreferrer'>
                         <i className="devicon-github-original colored icon"></i>

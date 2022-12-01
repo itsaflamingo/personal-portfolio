@@ -124,6 +124,9 @@ i {
     gap: 5%;
     align-items: center;
 }
+.links i {
+    font-size: 20px;
+}
 button {
     min-height: 40px;
     min-width: 100px;
@@ -147,6 +150,9 @@ button {
     display: flex;
     gap: 10px;
     justify-content: center;
+}
+#footer-social i {
+    font-size: 30px;
 }
 .icon {
     cursor: pointer;

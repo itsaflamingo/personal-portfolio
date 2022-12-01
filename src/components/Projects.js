@@ -10,8 +10,8 @@ export default function Projects() {
                 {projects.map(project => {
                     return (
                         <div className='project' key={project.id}>
-                            <img class='proj-img' src={project.img} alt='project' />
-                            <div class='info'>
+                            <img className='proj-img' src={project.img} alt='project' />
+                            <div className='info'>
                                 {project.name}
                                 <ProjectLinks ghLink={project.ghRepoLink}
                                 projectLink={project.projectLink} />
