@@ -1,4 +1,3 @@
-import ProjectLinks from "./ProjectLinks";
 import SocialIcons from "./SocialIcons";
 
 export default function AboutMe() {
