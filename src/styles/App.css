@@ -63,7 +63,7 @@ img {
 #my-pic {
     min-width: 250px;
     box-shadow: 2px 2px 5px  #62616146;}
-#about-me {
+#header {
     background-color: white;
     max-width: 450px;
     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.273);
@@ -71,6 +71,18 @@ img {
     padding-left: 40px;
     padding-right: 40px;
     font-weight: 100;
+}
+#header #social {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#header #social i {
+    font-size: 20px;
+}
+#about-me p{
+    font-size: 15px;
 }
 /* PROJECTS */
 #projects {
@@ -144,14 +156,14 @@ button {
     align-items: center;
     justify-content: center;
 }
-#footer-social {
+#social {
     height: 20%;
     width: 50%;
     display: flex;
     gap: 10px;
     justify-content: center;
 }
-#footer-social i {
+#social i {
     font-size: 30px;
 }
 .icon {
