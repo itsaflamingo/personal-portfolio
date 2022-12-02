@@ -2,6 +2,7 @@ import girl from '../images/girl.jpg'
 import AboutMe from './AboutMe';
 
 export default function Personal() {
+    
     return (
         <div id='container'>
             <div id='head'>

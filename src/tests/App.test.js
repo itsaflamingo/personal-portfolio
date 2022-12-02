@@ -3,12 +3,12 @@ import App from '../components/App';
 import '@testing-library/jest-dom/extend-expect'
 
 describe('App component', () => {
-  test('renders projects heading', () => {
+  it('renders projects heading', () => {
     render(<App />)
     const projects = screen.getByText(/Projects/i);
     expect(projects).toBeInTheDocument();
   })
-  test('renders all projects', () => {
+  it('renders all projects', () => {
     render(<App />)
     const waldo = screen.getAllByText(/Where's Waldo/i);
     const battleship = screen.getAllByText(/Battleship/i);
@@ -20,29 +20,29 @@ describe('App component', () => {
     expect(shopping[0]).toBeInTheDocument();
     expect(weather[0]).toBeInTheDocument();
   })
-  test('renders About me heading', () => {
+  it('renders About me heading', () => {
     render (<App />)
     const heading = screen.getByText(/About me/i);
     expect(heading).toBeInTheDocument();
   })
-  test('renders Contact heading', () => {
+  it('renders Contact heading', () => {
     render (<App />)
     const heading = screen.getByText(/Contact/i);
     expect(heading).toBeInTheDocument();
   })
-  test('renders My Work heading', () => {
+  it('renders My Work heading', () => {
     render (<App />)
     const heading = screen.getByText(/My Work/i);
     expect(heading).toBeInTheDocument();
   })
-  test('social media links have correct href attribute', () => {
+  it('social media links have correct href attribute', () => {
     render (<App />);
     const links = screen.getAllByRole('link');
     expect(links[0]).toHaveAttribute('href', 'https://www.linkedin.com/in/elizabeth-pinero-984471177/');
     expect(links[1]).toHaveAttribute('href', 'https://github.com/itsaflamingo');
     expect(links[2]).toHaveAttribute('href', 'https://twitter.com/lizpinero_');
   })
-  test('project links for wheres waldo have correct href attribute', () => {
+  it('project links for wheres waldo have correct href attribute', () => {
     render (<App />);
     const links = screen.getAllByRole('link');
 
@@ -58,28 +58,28 @@ describe('App component', () => {
     expect(links[9]).toHaveAttribute('href', 'https://github.com/itsaflamingo/weather-app');
     expect(links[10]).toHaveAttribute('href', 'https://itsaflamingo.github.io/weather-app/');
   })
-  test('project links for battleship have correct href attribute', () => {
+  it('project links for battleship have correct href attribute', () => {
     render (<App />);
     const links = screen.getAllByRole('link');
 
     expect(links[5]).toHaveAttribute('href', 'https://github.com/itsaflamingo/battleship');
     expect(links[6]).toHaveAttribute('href', 'https://itsaflamingo.github.io/battleship/');
   })
-  test('project links for shopping cart have correct href attribute', () => {
+  it('project links for shopping cart have correct href attribute', () => {
     render (<App />);
     const links = screen.getAllByRole('link');
 
     expect(links[7]).toHaveAttribute('href', 'https://github.com/itsaflamingo/shopping-cart/tree/main');
     expect(links[8]).toHaveAttribute('href', 'https://itsaflamingo.github.io/shopping-cart/');
   })
-  test('project links for weather app have correct href attribute', () => {
+  it('project links for weather app have correct href attribute', () => {
     render (<App />);
     const links = screen.getAllByRole('link');
 
     expect(links[9]).toHaveAttribute('href', 'https://github.com/itsaflamingo/weather-app');
     expect(links[10]).toHaveAttribute('href', 'https://itsaflamingo.github.io/weather-app/');
   })
-  test('renders email', () => {
+  it('renders email', () => {
     render (<App />)
     const email = screen.getByText(/elizabeth.r.pinero@gmail.com/i);
     expect(email).toBeInTheDocument();

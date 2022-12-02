@@ -1,6 +1,7 @@
 import SocialIcons from "./SocialIcons";
 
 export default function AboutMe() {
+    
     return (
         <div id='header'>
             <div id='about-me'>

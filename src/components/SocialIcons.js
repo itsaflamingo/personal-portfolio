@@ -1,4 +1,5 @@
 export default function SocialIcons() {
+    
     return (
         <div id='social'>
             <a href='https://www.linkedin.com/in/elizabeth-pinero-984471177/' target='_blank' rel='noreferrer'>
