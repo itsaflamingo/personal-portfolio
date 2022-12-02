@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.2af64d93.css",
+    "main.js": "/personal-portfolio/static/js/main.d60a157d.js",
+    "static/media/weather.png": "/personal-portfolio/static/media/weather.97ee52369232d943d849.png",
+    "static/media/wheres-waldo.png": "/personal-portfolio/static/media/wheres-waldo.6566531503b71e242c05.png",
+    "static/media/girl.jpg": "/personal-portfolio/static/media/girl.a7af3596f528e329d209.jpg",
+    "static/media/shopping.png": "/personal-portfolio/static/media/shopping.b4acf48fe70efae3e990.png",
+    "static/media/battleship.png": "/personal-portfolio/static/media/battleship.923012e35065ed5f90b2.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.2af64d93.css.map": "/personal-portfolio/static/css/main.2af64d93.css.map",
+    "main.d60a157d.js.map": "/personal-portfolio/static/js/main.d60a157d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2af64d93.css",
+    "static/js/main.d60a157d.js"
+  ]
+}
