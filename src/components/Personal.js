@@ -1,4 +1,4 @@
-import girl from '../images/girl.jpg'
+import girl from '../images/pic3.JPG'
 import AboutMe from './AboutMe';
 
 export default function Personal() {
