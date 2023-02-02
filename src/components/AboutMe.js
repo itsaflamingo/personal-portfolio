@@ -7,13 +7,13 @@ export default function AboutMe() {
             <div id='about-me'>
                 <h3>About me</h3>
                 <p>
-                Hi, my name is Elizabeth and I am a pastry cook turned Web Developer. How does a pastry cook become a Web Developer? Read on to find out! 
+                Hi, my name is Elizabeth and I am a pastry cook turned Web Developer. 
                 <br></br>
                 <br></br>
-                The COVID lockdowns gave me an opportunity to pursue my curiosities, and Web Development had always been top of that list. I started by creating projects, and found myself easily spending six to eight hours a day on my projects and research. The more time I spent creating, the more I fell in love with the world of Development, and eventually made a decision to work on it full-time. 
+                Coming from a background of collaboration, craftsmanship, preparation, and problem solving, I was instantly intrigued by the importance of these skills in Web Development. 
                 <br></br>
                 <br></br>
-                Going forward, I'm excited to learn more technologies, and continuously improve my craft. To showcase my skills, I have created a series of projects that are included in my portfolio. I am dedicated to continuously learning and improving my craft, and am eager to bring my creativity and problem-solving skills to the field of web development.  
+                Committed to the idea of lifelong learning and driven by curiosity, I am a Web Developer ready to bring my passion for all things Web Development.  
                 </p>
             </div>
             <SocialIcons />
