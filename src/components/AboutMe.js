@@ -7,7 +7,13 @@ export default function AboutMe() {
             <div id='about-me'>
                 <h3>About me</h3>
                 <p>
-                    My name is Elizabeth, and I am a front-end, soon to be full-stack, software engineer. I have always been passionate about technology and the potential for creativity that has emerged as a result. I have spent the past four years working in pastry, where I fell in love with creating beautiful, detailed and functional desserts. During the COVID lockdowns I co-started a pastry start-up, and found myself really enjoying the process of creating a website. I decided to learn more about web development by creating projects. As I continued to create I slowly fell in love with web development, and decided to pursue software development as a career.  
+                Hi, my name is Elizabeth and I am a pastry cook turned Web Developer. How does a pastry cook become a Web Developer? Read on to find out! 
+                <br></br>
+                <br></br>
+                The COVID lockdowns gave me an opportunity to pursue my curiosities, and Web Development had always been top of that list. I started by creating projects, and found myself easily spending six to eight hours a day on my projects and research. The more time I spent creating, the more I fell in love with the world of Development, and eventually made a decision to work on it full-time. 
+                <br></br>
+                <br></br>
+                Going forward, I'm excited to learn more technologies, and continuously improve my craft. To showcase my skills, I have created a series of projects that are included in my portfolio. I am dedicated to continuously learning and improving my craft, and am eager to bring my creativity and problem-solving skills to the field of web development.  
                 </p>
             </div>
             <SocialIcons />

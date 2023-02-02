@@ -2,6 +2,7 @@ import battleshipImg from '../images/battleship.png'
 import shopping from '../images/shopping.png'
 import weather from '../images/weather.png'
 import waldo from '../images/wheres-waldo.png'
+import hooter from '../images/twitter-clone.png' 
 
 function ProjectsFactory(name, description, projectLink, ghRepoLink, id, img) {
 
@@ -14,6 +15,17 @@ function ProjectsFactory(name, description, projectLink, ghRepoLink, id, img) {
         img
     }
 
+}
+
+const twitterClone = () => {
+    return ProjectsFactory(
+        "Twitter Clone",
+        "Full stack social media application built with React, Redux & Firebase",
+        "https://itsaflamingo.github.io/twitter-clone/",
+        "https://github.com/itsaflamingo/twitter-clone",
+        5,
+        hooter
+    )
 }
 
 const wheresWaldo = () => {
@@ -60,6 +72,6 @@ const weatherApp = () => {
     )
 }
 
-const projects = [ wheresWaldo(), battleship(), shoppingCart(), weatherApp() ]
+const projects = [ twitterClone(), wheresWaldo(), battleship(), shoppingCart(), weatherApp() ]
 
 export default projects;
