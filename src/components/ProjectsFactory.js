@@ -3,6 +3,7 @@ import shopping from '../images/shopping.png'
 import weather from '../images/weather.png'
 import waldo from '../images/wheres-waldo.png'
 import hooter from '../images/twitter-clone.png' 
+import blog from '../images/blog.png'
 
 function ProjectsFactory(name, description, projectLink, ghRepoLink, id, img) {
 
@@ -15,6 +16,17 @@ function ProjectsFactory(name, description, projectLink, ghRepoLink, id, img) {
         img
     }
 
+}
+
+const blogSite = () => {
+    return ProjectsFactory(
+        "Fullstack Blog",
+        "Full-stack blog created with Node.js, Express.js, Mongoose/MongoDB, PassportJS, Jsonwebtoken, React, JavaScript",
+        "https://github.com/itsaflamingo/fullstack_blog_frontend",
+        "https://itsaflamingo.github.io/fullstack_blog_frontend/",
+        6,
+        blog
+    )
 }
 
 const twitterClone = () => {
@@ -72,6 +84,6 @@ const weatherApp = () => {
     )
 }
 
-const projects = [ twitterClone(), wheresWaldo(), battleship(), shoppingCart(), weatherApp() ]
+const projects = [ blogSite(), twitterClone(), wheresWaldo(), battleship(), shoppingCart(), weatherApp() ]
 
 export default projects;
