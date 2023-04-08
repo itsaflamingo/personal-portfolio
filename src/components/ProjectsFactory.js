@@ -22,8 +22,8 @@ const blogSite = () => {
     return ProjectsFactory(
         "Fullstack Blog",
         "Full-stack blog created with Node.js, Express.js, Mongoose/MongoDB, PassportJS, Jsonwebtoken, React, JavaScript",
-        "https://github.com/itsaflamingo/fullstack_blog_frontend",
         "https://itsaflamingo.github.io/fullstack_blog_frontend/",
+        "https://github.com/itsaflamingo/fullstack_blog_frontend",
         6,
         blog
     )
