@@ -8,7 +8,6 @@ export default function ContactInfo() {
 
             <div id="personal-info">
                 <div id='address'>
-                    <p>215 Renforth Dr</p>
                     <p>Toronto, ON, Canada</p>
                 </div>
 
