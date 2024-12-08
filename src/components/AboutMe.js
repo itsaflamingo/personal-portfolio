@@ -5,13 +5,7 @@ export default function AboutMe() {
   return (
     <div
       id="header"
-      className="bg-white max-w-md
-shadow-md
-px-20
-py-5
-pl-10
-pr-10
-font-thin"
+      className="bg-white max-w-md shadow-md px-20 py-5 pl-10 pr-10 font-thin"
     >
       <div id="about-me">
         <h3 className="text-2xl">Hi there! Call me Liz</h3>

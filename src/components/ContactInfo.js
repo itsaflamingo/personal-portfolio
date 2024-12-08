@@ -4,20 +4,10 @@ export default function ContactInfo() {
   return (
     <div
       id="contact-info"
-      className="bg-[#0991B1] min-w-full bg-transparent
-text-white
-mt-20
-pb-1
-flex
-flex-col
-items-center
-justify-center
-"
+      className="bg-[#0991B1] min-w-full bg-transparent text-white mt-20 pb-1 flex flex-col items-center justify-center"
     >
       <h3 className="text-2xl text-white">Contact</h3>
-      <p>
-        Please get in touch if you think our work could be mutually beneficial!
-      </p>
+      <p>Get in touch if you think our work could be mutually beneficial!</p>
 
       <div id="personal-info">
         <div id="address">
