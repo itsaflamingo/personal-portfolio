@@ -1,190 +1,197 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    --background: #0891B2;  
-    font-family: 'Montserrat', sans-serif;
+  --background: #0891b2;
+  font-family: "Montserrat", sans-serif;
 }
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /* APP */
 .App {
-    width: 100%;
-    min-width: 900px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  width: 100%;
+  min-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 #main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 img {
-    min-width: 100px;
-    max-width: 200px;
-    width: minmax(100px, 200px);
-    height: auto;
+  min-width: 100px;
+  max-width: 200px;
+  width: minmax(100px, 200px);
+  height: auto;
 }
 /* PERSONAL */
 #container {
-    width: 100%;
+  width: 100%;
 }
 #head {
-    position: relative;
-    display: flex;
-    min-width: 900px;
+  position: relative;
+  display: flex;
+  min-width: 900px;
 }
 #personal {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 15%;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 #my-pic {
-    min-width: 325px;
-    box-shadow: 2px 2px 5px  #62616146;
+  min-width: 325px;
+  box-shadow: 2px 2px 5px #62616146;
+}
+h3 {
+  font-weight: 400;
 }
 #header {
-    background-color: white;
-    max-width: 450px;
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.273);
-    padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-weight: 100;
+  background-color: white;
+  max-width: 450px;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.273);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 100;
 }
 #header #social {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    margin-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 15px;
 }
 #header #social i {
-    font-size: 20px;
+  font-size: 20px;
 }
-#about-me p{
-    font-size: 15px;
+#about-me p {
+  font-size: 15px;
 }
 /* PROJECTS */
 #projects {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    margin-top: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 80px;
 }
 #projects-container {
-    width: 80%;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 300px));
-    gap: 20px;
+  width: 80%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 300px));
+  gap: 20px;
 }
 .heading {
-    align-self: flex-start;
-    margin-left: 300px;
+  align-self: flex-start;
+  margin-left: 300px;
 }
 /* PROJECT */
-.project { 
-    display: flex;
-    flex-direction: column;  
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
-    min-width: 300px;
-    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.273);
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  min-width: 300px;
+  box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.273);
 }
 .info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
 }
 i {
-    width: 100%;
+  width: 100%;
 }
 .proj-img {
-    margin: 30px 0 20px 0;
-    min-width: 300px;
+  margin: 30px 0 20px 0;
+  min-width: 300px;
 }
 .description {
-    font-size: 12px;
-    padding: 15px;
+  font-size: 12px;
+  padding: 15px;
 }
 /* LINKS */
 .links {
-    display: flex;
-    gap: 5%;
-    align-items: center;
+  display: flex;
+  gap: 5%;
+  align-items: center;
 }
 .links i {
-    font-size: 20px;
+  font-size: 20px;
 }
 button {
-    min-height: 40px;
-    min-width: 100px;
-    border-radius: 20px;
-    border: none;
+  min-height: 40px;
+  min-width: 100px;
+  border-radius: 20px;
+  border: none;
 }
 /* CONTACT INFO */
 #contact-info {
-    min-width: 100%;
-    background-color: var(--background);
-    color: white;
-    margin-top: 80px;
-    padding-bottom: 1%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  min-width: 100%;
+  background-color: var(--background);
+  color: white;
+  margin-top: 80px;
+  padding-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #social {
-    height: 20%;
-    width: 50%;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+  height: 20%;
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 #social i {
-    font-size: 30px;
+  font-size: 30px;
 }
 .icon {
-    cursor: pointer;
+  cursor: pointer;
 }
 .social-med {
-    height: 10%;
+  height: 10%;
 }
 #personal-info {
-    display: flex;
-    gap: 15px;
-    margin: 15px 0;
-    align-items: center;
-    gap: 100px;
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+  align-items: center;
+  gap: 100px;
 }
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 p {
-    margin: 0;
+  margin: 0;
 }
-#email, #phone {
-    display: flex;
-    gap: 10px;
-    margin: 5px;
+#email,
+#phone {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+}
+.bold {
+  font-weight: 400;
 }
 @media (max-width: 620px) {
-    .heading {
-        margin-left: 150px;
-    }
+  .heading {
+    margin-left: 150px;
+  }
 }

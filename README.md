@@ -1,7 +1,6 @@
-Personal portfolio made with React, JavaScript, JSX, CSS & tested using the React Testing Library. 
+Personal portfolio made with React, JavaScript, JSX, CSS & tested using the React Testing Library.
 
-Link to live site: https://itsaflamingo.github.io/personal-portfolio/
+Link to live site: https://itsaflamingo.github.io/personal-portfolio-2/
 
 ![My Image](./src/images/screenshot1.png)
 ![My Image](./src/images/screenshot2.png)
-

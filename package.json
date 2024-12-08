@@ -1,5 +1,5 @@
 {
-  "name": "personal-portfolio",
+  "name": "personal-portfolio-2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://itsaflamingo.github.io/personal-portfolio"
+  "homepage": "https://itsaflamingo.github.io/personal-portfolio-2"
 }
