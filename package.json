@@ -38,5 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://itsaflamingo.github.io/personal-portfolio-2"
+  "homepage": "https://itsaflamingo.github.io/personal-portfolio-2",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
 }
