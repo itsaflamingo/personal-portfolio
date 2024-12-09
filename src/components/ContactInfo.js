@@ -10,12 +10,12 @@ export default function ContactInfo() {
         Get in touch if you think our work could be mutually beneficial!
       </p>
 
-      <div id="personal-info">
-        <div id="address" className="font-medium text-[#002c47]">
+      <div className="flex gap-4 gap-x-24 my-4 items-center justify-center">
+        <div id="address" className="font-medium text-darkBlue">
           <p>Toronto, ON, Canada</p>
         </div>
 
-        <div id="contact" className="font-medium text-[#002c47]">
+        <div id="contact" className="font-medium text-darkBlue">
           <div id="phone">
             <svg style={{ width: "24px", height: "24px" }} viewBox="0 0 24 24">
               <path

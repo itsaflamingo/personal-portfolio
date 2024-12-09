@@ -72,13 +72,6 @@ h3 {
 #about-me p {
   font-size: 15px;
 }
-#projects-container {
-  width: 80%;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 300px));
-  gap: 20px;
-}
 .heading {
   align-self: flex-start;
   margin-left: 300px;
@@ -133,13 +126,6 @@ button {
 }
 .social-med {
   height: 10%;
-}
-#personal-info {
-  display: flex;
-  gap: 15px;
-  margin: 15px 0;
-  align-items: center;
-  gap: 100px;
 }
 /* a {
   text-decoration: none;
