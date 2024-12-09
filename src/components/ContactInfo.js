@@ -36,7 +36,7 @@ export default function ContactInfo() {
           </div>
         </div>
       </div>
-      <div className="text-lg text-[#e6f4f1]">
+      <div className="text-lg text-darkBlue">
         <SocialIcons />
       </div>
     </div>

@@ -72,17 +72,6 @@ h3 {
 #about-me p {
   font-size: 15px;
 }
-/* PROJECTS */
-#projects {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  width: 100%;
-  margin-top: 80px;
-}
 #projects-container {
   width: 80%;
   display: grid;
