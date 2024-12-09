@@ -3,7 +3,9 @@ import SocialIcons from "./SocialIcons";
 export default function ContactInfo() {
   return (
     <div className="bg-[#0991B1] w-full text-black mt-20 pb-1 flex flex-col items-center justify-center p-2">
-      <h3 className="text-2xl font-semibold text-mbLite">Contact</h3>
+      <h3 className="text-2xl font-merriweather font-semibold text-mbLite">
+        Contact
+      </h3>
       <p className="text-dark-blue">
         Get in touch if you think our work could be mutually beneficial!
       </p>

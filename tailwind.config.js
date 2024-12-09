@@ -13,10 +13,9 @@ module.exports = {
         darkBlue: "#002c47",
         white: "#ffffff",
       },
-    },
-
-    fontFamily: {
-      sans: ["Inter", "sans-serif"],
+      fontFamily: {
+        merriweather: ["Merriweather", "serif"],
+      },
     },
   },
   plugins: [],

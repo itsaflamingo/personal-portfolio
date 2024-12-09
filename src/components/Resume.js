@@ -9,7 +9,7 @@ export default function Resume() {
         rel="noreferrer"
         className="flex justify-center items-center p-1 bg-orangeAccent"
       >
-        <div className="w-full p-1 bg-white">Resume</div>
+        <div className="w-full p-1 bg-white font-merriweather">Resume</div>
       </a>
     </div>
   );
