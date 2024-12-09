@@ -5,14 +5,14 @@ export default function AboutMe() {
   return (
     <div
       id="header"
-      className="bg-white max-w-md shadow-md px-20 py-5 pl-10 pr-10 font-thin"
+      className="bg-white max-w-md shadow-md px-20 py-5 pl-10 pr-10"
     >
       <div id="about-me">
-        <h3 className="text-2xl">Hi there! Call me Liz</h3>
+        <h3 className="text-2xl">Hi there! I'm Liz</h3>
         <br></br>
         <p>
-          I'm a <span className="bold">full-stack developer</span> who took the
-          long way around.
+          I'm a <span className="font-semibold">full-stack developer</span> who
+          took the long way around.
           <br></br>
           <br></br>I graduated in 2020 with a degree in International
           Development. During COVID I decided to start my journey as a web

@@ -5,7 +5,16 @@ module.exports = {
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        orangeAccent: "#f69333",
+        mainBlue: "#0991b1",
+        mbLite: "#e6f4f1",
+        darkBlue: "#002c47",
+        white: "#ffffff",
+      },
+    },
+
     fontFamily: {
       sans: ["Inter", "sans-serif"],
     },

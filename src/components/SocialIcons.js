@@ -7,7 +7,7 @@
  */
 export default function SocialIcons() {
   return (
-    <div className="h-[40px] flex justify-center align-center gap-2 text-lg">
+    <div className="h-[40px] flex justify-center align-center gap-2 text-2xl">
       <a
         href="https://www.linkedin.com/in/elizabeth-pinero-984471177/"
         target="_blank"
@@ -22,7 +22,7 @@ export default function SocialIcons() {
         rel="noreferrer"
         className="cursor-pointer self-center"
       >
-        <i className="devicon-github-original colored icon"></i>
+        <i className="devicon-github-original icon"></i>
       </a>
       <a
         href="https://twitter.com/lizpinero_"
