@@ -9,18 +9,18 @@
   --background: #0891b2;
   font-family: "Montserrat", sans-serif;
 }
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
+  width: 100vw;
   margin: 0;
   padding: 0;
 }
 /* APP */
-.App {
-  width: 100%;
-  min-width: 900px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 #main {
   display: flex;
   flex-direction: column;
@@ -29,8 +29,6 @@ body {
   width: 100%;
 }
 img {
-  min-width: 100px;
-  max-width: 200px;
   width: minmax(100px, 200px);
   height: auto;
 }
@@ -41,7 +39,6 @@ img {
 #head {
   position: relative;
   display: flex;
-  min-width: 900px;
 }
 #personal {
   position: absolute;
@@ -149,7 +146,7 @@ p {
   }
   .projects {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column;
   }
   .project {
     max-width: 400px;
