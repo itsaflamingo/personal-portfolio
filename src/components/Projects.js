@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="relative flex flex-col justify-center items-center gap-5 w-full mt-20">
       <h3 className="self-start ml-72 font-merriweather">My Work</h3>
-      <div className="projects grid grid-cols-3 min-w-4/6 flex-1">
+      <div className="projects grid grid-cols-3 min-w-3/6 flex-1 gap-5 mx-40">
         {projects.map((project) => {
           return (
             <div className="project" key={project.id}>

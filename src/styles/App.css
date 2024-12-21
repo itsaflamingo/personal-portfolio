@@ -155,3 +155,8 @@ p {
     max-width: 400px;
   }
 }
+@media (max-width: 1162px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
