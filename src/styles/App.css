@@ -33,23 +33,6 @@ img {
   height: auto;
 }
 /* PERSONAL */
-#container {
-  width: 100%;
-}
-#head {
-  position: relative;
-  display: flex;
-}
-#personal {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 15%;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-}
 #my-pic {
   min-width: 325px;
   box-shadow: 2px 2px 5px #62616146;
@@ -68,10 +51,6 @@ h3 {
 }
 #about-me p {
   font-size: 15px;
-}
-.heading {
-  align-self: flex-start;
-  margin-left: 300px;
 }
 /* PROJECT */
 .project {
@@ -142,7 +121,7 @@ p {
 }
 @media (max-width: 620px) {
   .heading {
-    margin-left: 150px;
+    margin: 150px;
   }
   .projects {
     display: flex;

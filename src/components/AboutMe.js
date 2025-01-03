@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <div
       id="header"
-      className="bg-white max-w-md shadow-md px-20 py-5 pl-10 pr-10"
+      className="bg-white h-[1/2] shadow-md px-20 py-5 pl-10 pr-10"
     >
       <div id="about-me">
         <h3 className="text-2xl">Hi there! I'm Liz ~</h3>
